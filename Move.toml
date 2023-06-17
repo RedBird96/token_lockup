@@ -1,0 +1,10 @@
+[package]
+name = 'Token Lockup'
+version = '1.0.0'
+
+[addresses]
+publisher = '0xCFFEE'
+
+[dependencies.AptosFramework]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+subdir = 'aptos-move/framework/aptos-framework'
